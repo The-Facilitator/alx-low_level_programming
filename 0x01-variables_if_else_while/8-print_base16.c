@@ -10,16 +10,17 @@
 
 int main(void)
 {
-	char c = '0';
+	char ch;
 
-	while (c <= 'f')
-
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-	putchar (c);
-
-	c++;
+		putchar (ch);
 	}
 
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar (ch);
+	}
 	putchar ('\n');
 
 	return (0);
