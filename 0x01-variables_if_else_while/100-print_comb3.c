@@ -16,36 +16,27 @@
 
 int main(void)
 {
-	int a, b;
+	int d, p;
 
+	for (d = '0'; d < '9'; d++)
 	{
-	for (a = 0; a < 10; a++)
-
-	{
-		for (b = a + 1; b <= '9'; a++)
-
+		for (p = d + 1; p <= '9'; p++)
 		{
-			if (a != b)
-
+			if (p != d)
 			{
-				putchar (a);
-				putchar (b);
+				putchar(d);
+				putchar(p);
+
+				if (d == '8' && p == '9')
+					continue;
+
+				putchar(',');
+				putchar(' ');
 			}
-
-			if (!(a == '0' && b == '1'))
-
-			{
-				putchar (',');
-				putchar (' ');
-			}
-
 		}
 	}
+	putchar('\n');
 
-	}
-
-	putchar ('\n');
 	return (0);
-
 }
 
