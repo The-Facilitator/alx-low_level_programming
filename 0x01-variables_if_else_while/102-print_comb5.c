@@ -4,6 +4,7 @@
 
 /**
  * main - main block
+ * Description:-
  * This program prints all possible combinations of two two-digit numbers.
  * The numbers will range from 0 to 99
  * The two numbers will  be separated by a space
@@ -14,7 +15,7 @@
  * The combinations of numbers should be printed in ascending order
  * 00 01 and 01 00 are considered as the same combination
  * of the numbers 0 and 1
- * Retrun: 0
+ * Return: 0
  */
 
 int main(void)
